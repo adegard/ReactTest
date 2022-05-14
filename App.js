@@ -9,7 +9,7 @@ function App(){
 
      return  <>
                 <p>some text</p>
-                <button onClick={afterClick}>Click me</button>
+                <button onMouseEnter={afterClick}>Click me</button>
             </>
 }
 
