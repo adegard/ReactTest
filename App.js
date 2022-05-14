@@ -9,11 +9,7 @@ function App(){
 
      return  <>
                 <p>some text</p>
-                <select onChange={afterClick}>
-                        <option>Apple</option>  
-                        <option>Banana</option>
-                        <option>pear</option>
-                </select>
+                <input type="text" onChange={afterClick} />
             </>
 }
 
