@@ -1,6 +1,6 @@
 import react from "react"
 import reactDom from "react-dom"
-import Header  from "./Header"
+import App  from "./App"
 
 
-reactDom.render( <Header text="ciao" cl="green" parag="my test"/>,document.getElementById("app"))
+reactDom.render( <App />,document.getElementById("app"))
