@@ -3,7 +3,7 @@ import react from "react"
 function App(){
 
      return  <>
-                <p>some text</p>
+                <p>some text of mine</p>
                
             </>
 }
