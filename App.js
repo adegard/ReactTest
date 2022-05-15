@@ -5,6 +5,8 @@ import Home from "./components/home";
 import About from "./components/about";
 import Errormsg from "./components/error404";
 
+import "./css/styles.css"
+
 function App(){
 
      return  <>
