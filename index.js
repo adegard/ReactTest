@@ -6,9 +6,4 @@ import {BrowserRouter} from "react-router-dom";
 
 const app = document.getElementById("app")
 
-reactDom.render(
-        <BrowserRouter>
-            <App />
-        </BrowserRouter>
-     
-        , app)
+reactDom.render( <BrowserRouter> <App /> </BrowserRouter>, app)
