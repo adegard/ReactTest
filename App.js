@@ -10,14 +10,16 @@ import "./css/styles.css"
 function App(){
 
      return  <>
-            <h1>Welcome to my website</h1>
-            <Nav />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="*" element={<Errormsg />} />
-            </Routes>
-               
+            <section class="main-container">
+                <h1>Welcome to my website!</h1>
+                <small>(Made with react)</small>
+                <Nav />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="*" element={<Errormsg />} />
+                </Routes>
+            </section>    
             </>
 }
 

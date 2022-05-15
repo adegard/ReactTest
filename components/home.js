@@ -15,18 +15,19 @@ function Home(){
     }
 
      return  <>
-                <h1>Home</h1>
-                <div>
-                    <img src= {i1pic} />
-                </div>
-                <section>
-                    {/* <p>Please enter a value:</p> */}
+                
+                    <h1>Home</h1>
+                    <div class="i1pic">
+                        <img src= {i1pic} />
+                    </div>
+                    <section>
+                        {/* <p>Please enter a value:</p> */}
 
-                     {/* <input type="text" onChange={afterChange} /> */}
-                    <button onClick={changetext}>Click on it</button>
-                    <p>{mytext}</p> 
-                </section>
-               
+                        {/* <input type="text" onChange={afterChange} /> */}
+                        <button onClick={changetext}>Click on it</button>
+                        <p>{mytext}</p> 
+                    </section>
+                
             </>
 }
 
