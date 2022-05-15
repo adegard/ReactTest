@@ -1,22 +1,14 @@
-import react from "react"
+import react, {useState} from "react"
 import reactDom from "react-dom";
 import App from "../App"
 import {BrowserRouter} from "react-router-dom";
 
-let mytext=""
-const app = document.getElementById("app")
-
 function Home(){
 
-    // function afterChange(e){
-    //     console.log(e.target.value)
-    // }  
-
-   
+    const [mytext, setMytext]= useState("Initial text")
 
     function changetext(){
-            mytext ="hello!"
-            reactDom.render( <BrowserRouter> <App /> </BrowserRouter>, app)
+          setMytext("Hello !") 
     }
 
      return  <>
